@@ -9,11 +9,6 @@ html {
 :target {
     scroll-margin-top: .8em;
   }
-*{
-	padding: 0;
-	border: 0;
-    margin: 0;
-}
 
 body, h1, p, nav{
     color: rgb(235, 235, 235);
@@ -81,7 +76,7 @@ li a {
 .divfooter{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
-    margin-top: 12em;
+    margin-top: 18vh;
 }
 
 h5{
