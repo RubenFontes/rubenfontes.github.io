@@ -29,7 +29,7 @@ body, h1, p, nav{
 h1{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
-    font-size: calc(19px + 4.35vw);
+    font-size: 4.35em;
     margin-top: 200px;
     letter-spacing: -0.035em;
 	line-height: 1em;
@@ -39,7 +39,7 @@ h1{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: rgb(214, 214, 214);
-    font-size: calc(12px + 0.6vw);
+    font-size: 1em;
 
 }
 .iconBehance, .iconGithub, .iconLinkedin, .iconEmail{
