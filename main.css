@@ -9,6 +9,11 @@ html {
 :target {
     scroll-margin-top: .8em;
   }
+*{
+	padding: 0;
+	border: 0;
+    margin: 0;
+}
 
 body, h1, p, nav{
     color: rgb(235, 235, 235);
@@ -19,16 +24,12 @@ body, h1, p, nav{
     flex-direction: column;
     justify-content: center;
     position: relative;
-	text-align: center;
-    background-size: cover;    
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 h1{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
-    font-size: calc(19px + 4.35vw);
+    font-size: 65px;
     margin-top: 200px;
     letter-spacing: -0.035em;
 	line-height: 1em;
@@ -38,7 +39,7 @@ h1{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: rgb(214, 214, 214);
-    font-size: calc(12px + 0.6vw);
+    font-size: 18px;
 
 }
 .iconBehance, .iconGithub, .iconLinkedin, .iconEmail{
@@ -76,7 +77,9 @@ li a {
 .divfooter{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
-    margin-top: 18vh;
+    bottom: 0;
+    margin-bottom: 15px;
+    position: fixed;
 }
 
 h5{
