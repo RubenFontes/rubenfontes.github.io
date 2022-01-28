@@ -99,29 +99,6 @@ a{
     color: rgb(181, 163, 216);
     text-decoration: none;
 }
-.sobre{
-	margin-top: 35vh;
-	margin-bottom: 50%;
-}
-    @keyframes header {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@keyframes nav-icons {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
 df-messenger {
     --df-messenger-bot-message:#455870; /* Cor do balão para mensagens do agente */
     --df-messenger-button-titlebar-color: rgb(13, 17, 23); /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
