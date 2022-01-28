@@ -16,7 +16,7 @@ html {
 }
 
 body, h1, p, nav{
-    color: rgb(235, 235, 235);
+    color: yellow;
     background-color: rgb(13, 17, 23);
     align-items: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -77,8 +77,7 @@ li a {
 .divfooter{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
-    bottom: 0;
-    margin-bottom: 15px;
+    margin-top: 120vh;
     position: fixed;
 }
 
