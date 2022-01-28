@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("fontawesome-all.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+:target {
+    scroll-margin-top: .8em;
+  }
+*{
+	padding: 0;
+	border: 0;
+    margin: 0;
+}
+
+body, h1, p, nav{
+    color: rgb(235, 235, 235);
+    background-color: rgb(13, 17, 23);
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: calc(19px + 4.35vw);
+    margin-top: 200px;
+    letter-spacing: -0.035em;
+	line-height: 1em;
+}
+.subtitle{
+    margin-top: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: rgb(214, 214, 214);
+    font-size: calc(12px + 0.6vw);
+
+}
+.iconBehance, .iconGithub, .iconLinkedin, .iconEmail{
+    color: whitesmoke;
+    font-size: 32px;
+}
+.circle1, .circle2, .circle3, .circle4{
+    width: 75px;
+    height: 75px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    align-items: center;
+    display:grid;
+    margin: 5px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+li {
+    float: left;
+    margin-top: 10px;
+    padding: 0px 5px 0px 5px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.divfooter{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    bottom: 0;
+    margin-bottom: 15px;
+    position: fixed;
+}
+
+h5{
+    font-weight: 500;
+    font-size: calc(16px + 1.5vw);
+    text-align: center;
+}
+h6{
+    color: rgb(187, 187, 187);
+	margin-top: 5px;
+    font-weight: 300;
+    font-size: calc(12px + 0.5vw);
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    color: rgb(181, 163, 216);
+    text-decoration: none;
+}
+.sobre{
+	margin-top: 35vh;
+	margin-bottom: 50%;
+}
+    @keyframes header {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@keyframes nav-icons {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	#header {
+		-moz-animation: header 0.25s 0.75s forwards;
+		-webkit-animation: header 0.25s 0.75s forwards;
+		-ms-animation: header 0.25s 0.75s forwards;
+		animation: header 0.25s 0.75s forwards;
+		-moz-backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+		cursor: default;
+		display: inline-block;
+		opacity: 0;
+		position: relative;
+		text-align: center;
+		top: -1em;
+		vertical-align: middle;
+	}
+			#header nav li {
+				-moz-animation: nav-icons 0.5s ease-in-out forwards;
+				-webkit-animation: nav-icons 0.5s ease-in-out forwards;
+				-ms-animation: nav-icons 0.5s ease-in-out forwards;
+				animation: nav-icons 0.5s ease-in-out forwards;
+				-moz-backface-visibility: hidden;
+				-webkit-backface-visibility: hidden;
+				-ms-backface-visibility: hidden;
+				backface-visibility: hidden;
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+				display: inline-block;
+				height: 5.35em;
+				line-height: 5.885em;
+				opacity: 0;
+				position: relative;
+				top: 0;
+				width: 5.35em;
+			}
+
+				#header nav li:nth-child(1) {
+					-moz-animation-delay: 1s;
+					-webkit-animation-delay: 1s;
+					-ms-animation-delay: 1s;
+					animation-delay: 1s;
+				}
+
+				#header nav li:nth-child(2) {
+					-moz-animation-delay: 1.25s;
+					-webkit-animation-delay: 1.25s;
+					-ms-animation-delay: 1.25s;
+					animation-delay: 1.25s;
+				}
+
+				#header nav li:nth-child(3) {
+					-moz-animation-delay: 1.5s;
+					-webkit-animation-delay: 1.5s;
+					-ms-animation-delay: 1.5s;
+					animation-delay: 1.5s;
+				}
+
+				#header nav li:nth-child(4) {
+					-moz-animation-delay: 1.75s;
+					-webkit-animation-delay: 1.75s;
+					-ms-animation-delay: 1.75s;
+					animation-delay: 1.75s;
+				}
+
+				#header nav li:nth-child(5) {
+					-moz-animation-delay: 2s;
+					-webkit-animation-delay: 2s;
+					-ms-animation-delay: 2s;
+					animation-delay: 2s;
+				}
+
+				#header nav li:nth-child(6) {
+					-moz-animation-delay: 2.25s;
+					-webkit-animation-delay: 2.25s;
+					-ms-animation-delay: 2.25s;
+					animation-delay: 2.25s;
+				}
+
+				#header nav li:nth-child(7) {
+					-moz-animation-delay: 2.5s;
+					-webkit-animation-delay: 2.5s;
+					-ms-animation-delay: 2.5s;
+					animation-delay: 2.5s;
+				}
+
+				#header nav li:nth-child(8) {
+					-moz-animation-delay: 2.75s;
+					-webkit-animation-delay: 2.75s;
+					-ms-animation-delay: 2.75s;
+					animation-delay: 2.75s;
+				}
+
+				#header nav li:nth-child(9) {
+					-moz-animation-delay: 3s;
+					-webkit-animation-delay: 3s;
+					-ms-animation-delay: 3s;
+					animation-delay: 3s;
+				}
+
+				#header nav li:nth-child(10) {
+					-moz-animation-delay: 3.25s;
+					-webkit-animation-delay: 3.25s;
+					-ms-animation-delay: 3.25s;
+					animation-delay: 3.25s;
+				}
+
+			#header nav a {
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+				-webkit-touch-callout: none;
+				border: 0;
+				display: inline-block;
+			}
+
+				#header nav a:before {
+					-moz-transition: all 0.2s ease-in-out;
+					-webkit-transition: all 0.2s ease-in-out;
+					-ms-transition: all 0.2s ease-in-out;
+					transition: all 0.2s ease-in-out;
+					border-radius: 100%;
+					border: solid 1px #fff;
+					display: block;
+					font-size: 1.75em;
+					height: 2.5em;
+					line-height: 2.5em;
+					position: relative;
+					text-align: center;
+					top: 0;
+					width: 2.5em;
+				}
+
+				#header nav a:hover {
+					font-size: 1.1em;
+				}
+
+					#header nav a:hover:before {
+						background-color: rgba(255, 255, 255, 0.175);
+						color: #fff;
+					}
+
+				#header nav a:active {
+					font-size: 0.95em;
+					background: none;
+				}
+
+					#header nav a:active:before {
+						background-color: rgba(255, 255, 255, 0.35);
+						color: #fff;
+					}
+
+				#header nav a span {
+					display: none;
+				}
+
+df-messenger {
+    --df-messenger-bot-message:#455870; /* Cor do balão para mensagens do agente */
+    --df-messenger-button-titlebar-color: rgb(13, 17, 23); /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
+    --df-messenger-button-titlebar-font-color: white; /*Cor da fonte do título na barra de título.*/
+    --df-messenger-chat-background-color: whiteSmoke; /*Cor do fundo.*/
+    --df-messenger-font-color: white; /*Cor da fonte para mensagens.*/
+    --df-messenger-input-box-color: whiteSmoke; /*Cor do segundo plano da caixa de entrada de texto.*/
+    --df-messenger-input-font-color: #111418; /*Cor da fonte da caixa de entrada de texto.*/
+    --df-messenger-input-placeholder-font-color: #111418; /*Cor da fonte do texto do marcador na caixa de entrada de texto.*/
+    --df-messenger-minimized-chat-close-icon-color: white; /*Cor do ícone de fechamento na visualização de chat fechada.*/
+    --df-messenger-send-icon: black; /*Cor do ícone de envio na caixa de entrada de texto.*/
+    --df-messenger-user-message: #121a20ef; /*Cor do segundo plano do balão para mensagens do usuário.*/
+  }
+  
