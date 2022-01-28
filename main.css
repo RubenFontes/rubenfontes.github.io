@@ -16,7 +16,7 @@ html {
 }
 
 body, h1, p, nav{
-    color: yellow;
+    color: rgb(235, 235, 235);
     background-color: rgb(13, 17, 23);
     align-items: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -24,12 +24,16 @@ body, h1, p, nav{
     flex-direction: column;
     justify-content: center;
     position: relative;
+	text-align: center;
+    background-size: cover;    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 h1{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
-    font-size: 4.35em;
+    font-size: calc(19px + 4.35vw);
     margin-top: 200px;
     letter-spacing: -0.035em;
 	line-height: 1em;
@@ -39,7 +43,7 @@ h1{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: rgb(214, 214, 214);
-    font-size: 1em;
+    font-size: calc(12px + 0.6vw);
 
 }
 .iconBehance, .iconGithub, .iconLinkedin, .iconEmail{
@@ -77,7 +81,8 @@ li a {
 .divfooter{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
-    margin-top: 120vh;
+    bottom: 0;
+    margin-bottom: 15px;
     position: fixed;
 }
 
@@ -98,6 +103,131 @@ a{
     color: rgb(181, 163, 216);
     text-decoration: none;
 }
+.sobre{
+	margin-top: 35vh;
+	margin-bottom: 50%;
+}
+    @keyframes header {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@keyframes nav-icons {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	#header {
+		-moz-animation: header 0.25s 0.75s forwards;
+		-webkit-animation: header 0.25s 0.75s forwards;
+		-ms-animation: header 0.25s 0.75s forwards;
+		animation: header 0.25s 0.75s forwards;
+		-moz-backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+		opacity: 0;
+	
+	}
+			#header nav li {
+				-moz-animation: nav-icons 0.5s ease-in-out forwards;
+				-webkit-animation: nav-icons 0.5s ease-in-out forwards;
+				-ms-animation: nav-icons 0.5s ease-in-out forwards;
+				animation: nav-icons 0.5s ease-in-out forwards;
+				-moz-backface-visibility: hidden;
+				-webkit-backface-visibility: hidden;
+				-ms-backface-visibility: hidden;
+				backface-visibility: hidden;
+				-moz-transform: translate3d(0,0,0);
+				-webkit-transform: translate3d(0,0,0);
+				-ms-transform: translate3d(0,0,0);
+				transform: translate3d(0,0,0);
+				opacity: 0;
+			}
+
+				#header nav li:nth-child(1) {
+					-moz-animation-delay: 1s;
+					-webkit-animation-delay: 1s;
+					-ms-animation-delay: 1s;
+					animation-delay: 1s;
+				}
+
+				#header nav li:nth-child(2) {
+					-moz-animation-delay: 1.25s;
+					-webkit-animation-delay: 1.25s;
+					-ms-animation-delay: 1.25s;
+					animation-delay: 1.25s;
+				}
+
+				#header nav li:nth-child(3) {
+					-moz-animation-delay: 1.5s;
+					-webkit-animation-delay: 1.5s;
+					-ms-animation-delay: 1.5s;
+					animation-delay: 1.5s;
+				}
+
+				#header nav li:nth-child(4) {
+					-moz-animation-delay: 1.75s;
+					-webkit-animation-delay: 1.75s;
+					-ms-animation-delay: 1.75s;
+					animation-delay: 1.75s;
+				}
+
+				#header nav li:nth-child(5) {
+					-moz-animation-delay: 2s;
+					-webkit-animation-delay: 2s;
+					-ms-animation-delay: 2s;
+					animation-delay: 2s;
+				}
+
+				#header nav li:nth-child(6) {
+					-moz-animation-delay: 2.25s;
+					-webkit-animation-delay: 2.25s;
+					-ms-animation-delay: 2.25s;
+					animation-delay: 2.25s;
+				}
+
+				#header nav li:nth-child(7) {
+					-moz-animation-delay: 2.5s;
+					-webkit-animation-delay: 2.5s;
+					-ms-animation-delay: 2.5s;
+					animation-delay: 2.5s;
+				}
+
+				#header nav li:nth-child(8) {
+					-moz-animation-delay: 2.75s;
+					-webkit-animation-delay: 2.75s;
+					-ms-animation-delay: 2.75s;
+					animation-delay: 2.75s;
+				}
+
+				#header nav li:nth-child(9) {
+					-moz-animation-delay: 3s;
+					-webkit-animation-delay: 3s;
+					-ms-animation-delay: 3s;
+					animation-delay: 3s;
+				}
+
+				#header nav li:nth-child(10) {
+					-moz-animation-delay: 3.25s;
+					-webkit-animation-delay: 3.25s;
+					-ms-animation-delay: 3.25s;
+					animation-delay: 3.25s;
+				}
 df-messenger {
     --df-messenger-bot-message:#455870; /* Cor do balão para mensagens do agente */
     --df-messenger-button-titlebar-color: rgb(13, 17, 23); /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
