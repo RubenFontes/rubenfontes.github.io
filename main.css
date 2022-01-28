@@ -81,9 +81,7 @@ li a {
 .divfooter{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
-    bottom: 0;
-    margin-bottom: 15px;
-    position: fixed;
+    margin-top: 11em;
 }
 
 h5{
