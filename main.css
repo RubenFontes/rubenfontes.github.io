@@ -55,7 +55,7 @@
          }
 
          df-messenger {
-            --df-messenger-bot-message: rgb(219, 219, 219); /* Cor do balão para mensagens do agente */
+            --df-messenger-bot-message: rgb(236, 236, 236); /* Cor do balão para mensagens do agente */
             --df-messenger-button-titlebar-color: cornflowerblue; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
             --df-messenger-button-titlebar-font-color: white; /*Cor da fonte do título na barra de título.*/
             --df-messenger-chat-background-color: whiteSmoke; /*Cor do fundo.*/
