@@ -19,14 +19,14 @@ main{
   transform: translate(-40%, -50%);
 }
 .title{
-  color: rgb(218, 218, 218);
+  color: rgb(29, 30, 32);
   padding: 10px;
   font-size: 30px;
 }
 #bg-title{
-  width: 206px;
+  width: 210px;
   border-radius: 4px;
-  background-color: rgb(46, 46, 51);
+  background-image: linear-gradient(to right, rgb(215, 228, 227), rgb(245, 255, 128));;
 }
 p{
   margin-top: .8rem;
@@ -47,14 +47,14 @@ svg:hover{
 }
 @media (max-width: 600px) {
   main{
-    left: 10%;
+    left: 15%;
     top: 50%;
     position: absolute;
-    transform: translate(-10%, -50%);
+    transform: translate(-15%, -50%);
   }
 }
 df-messenger {
-  --df-messenger-bot-message: rgb(236, 236, 236); /* Cor do balão para mensagens do agente */
+  --df-messenger-bot-message: white; /* Cor do balão para mensagens do agente */
   --df-messenger-button-titlebar-color: rgb(46, 46, 51); /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
   --df-messenger-button-titlebar-font-color: white; /*Cor da fonte do título na barra de título.*/
   --df-messenger-chat-background-color: whiteSmoke; /*Cor do fundo.*/
@@ -64,5 +64,5 @@ df-messenger {
   --df-messenger-input-placeholder-font-color: rgb(46, 46, 51); /*Cor da fonte do texto do marcador na caixa de entrada de texto.*/
   --df-messenger-minimized-chat-close-icon-color: white; /*Cor do ícone de fechamento na visualização de chat fechada.*/
   --df-messenger-send-icon: rgb(46, 46, 51); /*Cor do ícone de envio na caixa de entrada de texto.*/
-  --df-messenger-user-message: rgb(46, 46, 51); /*Cor do segundo plano do balão para mensagens do usuário.*/
+  --df-messenger-user-message: rgb(218, 218, 218); /*Cor do segundo plano do balão para mensagens do usuário.*/
 }  
