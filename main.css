@@ -33,16 +33,19 @@ main{
 p{
   margin-top: 15px;
 }
-span{
+a{
+  text-decoration: none;
   color: rgb(218, 218, 218);
 }
-
+a:hover{
+  color: rgb(156, 157, 158);
+}
 @media (max-width: 600px) {
   main{
-    left: 15%;
+    left: 12%;
     top: 50%;
     position: absolute;
-    transform: translate(-15%, -50%);
+    transform: translate(-12%, -50%);
   }
 }
 
