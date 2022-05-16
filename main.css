@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@900&family=Space+Grotesk:wght@700&display=swap');
-@font-face {
+/*@font-face {
   font-family: "Fonseca";
   src: url(fonts/motterombra.ttf);
-}
+}*/
 *{
   margin: 0;
 }
@@ -16,7 +16,7 @@ body{
   height: 100vh;
   position: relative;
 }
-main{
+.content{
   left: 40%;
   top: 50%;
   position: absolute;
@@ -28,7 +28,6 @@ main{
   padding: 8px;
   font-size: 30px;
   background: #f6d5d2;
-  font-family: roboto;
 }
 p{
   margin-top: 15px;
@@ -48,12 +47,11 @@ a:hover{
     transform: translate(-12%, -50%);
   }
 }
-
 df-messenger {
   --df-messenger-bot-message: white; /* Cor do balão para mensagens do agente */
   --df-messenger-button-titlebar-color: rgb(215, 228, 227); /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
   --df-messenger-button-titlebar-font-color: rgb(46, 46, 51); /*Cor da fonte do título na barra de título.*/
-  --df-messenger-chat-background-color: rgb(243, 243, 243); /*Cor do fundo.*/
+  --df-messenger-chat-background-color: whiteSmoke; /*Cor do fundo.*/
   --df-messenger-font-color: rgb(46, 46, 51); /*Cor da fonte para mensagens.*/
   --df-messenger-input-box-color: whiteSmoke; /*Cor do segundo plano da caixa de entrada de texto.*/
   --df-messenger-input-font-color: rgb(46, 46, 51); /*Cor da fonte da caixa de entrada de texto.*/
