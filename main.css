@@ -7,8 +7,8 @@
   margin: 0;
 }
 body{
-  background-color: rgb(15, 15, 15);
-  color: darkgray;
+  background-color: black;
+  color: darkgrey;
   font-family: 'Roboto', sans-serif;
 }
 .container{
@@ -27,14 +27,14 @@ body{
   color: rgb(29, 30, 32);
   padding: 8px;
   font-size: 30px;
-  background: lightsteelblue;
+  background: white;
 }
 p{
   margin-top: 15px;
 }
 a{
   text-decoration: none;
-  color: gainsboro;
+  color: white;
 }
 a:hover{
   color: darkgray;
@@ -49,14 +49,14 @@ a:hover{
 }
 df-messenger {
   --df-messenger-bot-message: white; /* Cor do balão para mensagens do agente */
-  --df-messenger-button-titlebar-color: #b0c4de; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
-  --df-messenger-button-titlebar-font-color: rgb(46, 46, 51); /*Cor da fonte do título na barra de título.*/
+  --df-messenger-button-titlebar-color: white; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
+  --df-messenger-button-titlebar-font-color: black; /*Cor da fonte do título na barra de título.*/
   --df-messenger-chat-background-color: whiteSmoke; /*Cor do fundo.*/
-  --df-messenger-font-color: rgb(46, 46, 51); /*Cor da fonte para mensagens.*/
-  --df-messenger-input-box-color: whiteSmoke; /*Cor do segundo plano da caixa de entrada de texto.*/
-  --df-messenger-input-font-color: rgb(46, 46, 51); /*Cor da fonte da caixa de entrada de texto.*/
-  --df-messenger-input-placeholder-font-color: rgb(46, 46, 51); /*Cor da fonte do texto do marcador na caixa de entrada de texto.*/
+  --df-messenger-font-color: black; /*Cor da fonte para mensagens.*/
+  --df-messenger-input-box-color: white; /*Cor do segundo plano da caixa de entrada de texto.*/
+  --df-messenger-input-font-color: black; /*Cor da fonte da caixa de entrada de texto.*/
+  --df-messenger-input-placeholder-font-color: black; /*Cor da fonte do texto do marcador na caixa de entrada de texto.*/
   --df-messenger-minimized-chat-close-icon-color: white; /*Cor do ícone de fechamento na visualização de chat fechada.*/
-  --df-messenger-send-icon: rgb(46, 46, 51); /*Cor do ícone de envio na caixa de entrada de texto.*/
-  --df-messenger-user-message: rgb(215, 228, 227); /*Cor do segundo plano do balão para mensagens do usuário.*/
+  --df-messenger-send-icon: black; /*Cor do ícone de envio na caixa de entrada de texto.*/
+  --df-messenger-user-message: lightgray; /*Cor do segundo plano do balão para mensagens do usuário.*/
 }  
