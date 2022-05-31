@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto:wght@900&family=Space+Grotesk:wght@700&display=swap');
-/*@font-face {
-  font-family: "Fonseca";
-  src: url(fonts/motterombra.ttf);
-}*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
 *{
   margin: 0;
+  padding: 0;
 }
 body{
-  background-color: black;
-  color: darkgrey;
+  background-color: rgb(14, 14, 17);
+  color: gainsboro;
   font-family: 'Roboto', sans-serif;
 }
 .container{
@@ -24,21 +22,44 @@ body{
 }
 .title{
   display: inline;
-  color: rgb(29, 30, 32);
+  color: rgb(14, 14, 17);
   padding: 8px;
   font-size: 30px;
-  background: white;
+  background: cornflowerblue;
+  font-weight: 900;
 }
-p{
-  margin-top: 15px;
+main p{
+  color: white;
+  margin-top: 17px;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+span{
+  color: gainsboro;
+}
+ul{
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+ul li{
+  list-style-type: none;
+  font-weight: 400;
+}
+ul li:nth-child(1){
+  padding-right: .4rem;
+}
+ul li:nth-child(2){
+  padding: 0px .4rem 0px .4rem;
 }
 a{
+  color: grey;
   text-decoration: none;
-  color: white;
 }
 a:hover{
-  color: darkgray;
+  color: gainsboro;
 }
+
 @media (max-width: 600px) {
   .content{
     left: 12%;
@@ -49,14 +70,14 @@ a:hover{
 }
 df-messenger {
   --df-messenger-bot-message: white; /* Cor do balão para mensagens do agente */
-  --df-messenger-button-titlebar-color: white; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
-  --df-messenger-button-titlebar-font-color: black; /*Cor da fonte do título na barra de título.*/
+  --df-messenger-button-titlebar-color: cornflowerblue; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
+  --df-messenger-button-titlebar-font-color: white; /*Cor da fonte do título na barra de título.*/
   --df-messenger-chat-background-color: whiteSmoke; /*Cor do fundo.*/
   --df-messenger-font-color: black; /*Cor da fonte para mensagens.*/
   --df-messenger-input-box-color: white; /*Cor do segundo plano da caixa de entrada de texto.*/
   --df-messenger-input-font-color: black; /*Cor da fonte da caixa de entrada de texto.*/
   --df-messenger-input-placeholder-font-color: black; /*Cor da fonte do texto do marcador na caixa de entrada de texto.*/
   --df-messenger-minimized-chat-close-icon-color: white; /*Cor do ícone de fechamento na visualização de chat fechada.*/
-  --df-messenger-send-icon: black; /*Cor do ícone de envio na caixa de entrada de texto.*/
+  --df-messenger-send-icon: cornflowerblue; /*Cor do ícone de envio na caixa de entrada de texto.*/
   --df-messenger-user-message: lightgray; /*Cor do segundo plano do balão para mensagens do usuário.*/
 }  
