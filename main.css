@@ -6,7 +6,7 @@
 }
 body{
   background-color: rgb(14, 14, 17);
-  color: gainsboro;
+  color: lightgrey;
   font-family: 'Roboto', sans-serif;
 }
 .container{
@@ -29,13 +29,14 @@ body{
   font-weight: 900;
 }
 main p{
-  color: white;
+  color: lightgrey;
   margin-top: 17px;
   margin-bottom: 8px;
   font-weight: 400;
 }
 span{
-  color: gainsboro;
+  color: white;
+  font-weight: 400;
 }
 ul{
   float: left;
@@ -57,7 +58,7 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color: gainsboro;
+  color: lightgray;
 }
 
 @media (max-width: 600px) {
