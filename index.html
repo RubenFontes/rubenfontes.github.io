@@ -23,29 +23,35 @@
     </script>
     
 <body>
-    <div class="container">
+    <div class="wrapper">
         <main class="content">
             <h1 class="title">Ruben Fontes</h1>
-            <p>working with <span>web</span> & <span>chatbots</span> in Brazil.</p>
-            <ul>
-                <li><a href="https://github.com/RubenFontes" target="_blank">Github</a></li>
-                |
-                <li><a href="https://www.behance.net/rbenf" target="_blank">Behance</a></li>
-            </ul>
+            <p>Working with design & development in Brazil.</p>
+            <button id="btn" href="">> <span>More</span></button>
+            <div id="container" style="display: none;">
+                <ul>
+                    <li><a href="https://github.com/RubenFontes" target="_blank">Github</a></li>
+                    |
+                    <li><a href="https://www.behance.net/rbenf" target="_blank">Behance</a></li>
+                    |
+                    <li><a href="https://www.behance.net/rbenf" target="_blank">Linkedin</a></li>
+                </ul>
+            </div>
         </main>
     </div>
     
     <!-- Cloudflare Web Analytics -->
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "283dd35036954732873cddf5f5da5688"}'></script><!-- End Cloudflare Web Analytics -->
+    <!--<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "283dd35036954732873cddf5f5da5688"}'></script>--> <!-- End Cloudflare Web Analytics -->
 
     <!-- Dialogflow web-messenger integration-->
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
-        intent="WELCOME"
+        intent=""
         chat-title="Talk to me"
         agent-id="19a428a1-40f9-48bf-ab4e-812782e559cc"
         chat-icon="assets/img/logobot.png"
         language-code="en">
     </df-messenger>
+    <script src="app.js"></script>
 </body>
 </html>

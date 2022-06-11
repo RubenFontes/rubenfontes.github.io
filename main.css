@@ -1,42 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
 
+@font-face {
+  font-family: "Futura";
+  src: url(assets/fonts/Futura.otf);
+}
 *{
   margin: 0;
   padding: 0;
 }
 body{
-  background-color: rgb(14, 14, 17);
-  color: lightgrey;
+  background-color: black;
+  color: whitesmoke;
+  font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
-.container{
+.wrapper{
   width: 100vw;
   height: 100vh;
   position: relative;
 }
 .content{
-  left: 40%;
+  left: 42%;
   top: 50%;
   position: absolute;
-  transform: translate(-40%, -50%);
+  transform: translate(-42%, -50%);
 }
 .title{
   display: inline;
-  color: rgb(14, 14, 17);
   padding: 8px;
-  font-size: 30px;
-  background: cornflowerblue;
   font-weight: 900;
+  font-size: 30px;
+  color: black;
+  background: #f3dc5c;
 }
 main p{
-  color: lightgrey;
   margin-top: 17px;
   margin-bottom: 8px;
-  font-weight: 400;
+}
+
+button{
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
 }
 span{
-  color: white;
   font-weight: 400;
+  text-decoration: underline;
+}
+span:hover{
+  color: #f3dc5c;
 }
 ul{
   float: left;
@@ -45,7 +64,6 @@ ul{
 }
 ul li{
   list-style-type: none;
-  font-weight: 400;
 }
 ul li:nth-child(1){
   padding-right: .4rem;
@@ -53,32 +71,35 @@ ul li:nth-child(1){
 ul li:nth-child(2){
   padding: 0px .4rem 0px .4rem;
 }
+ul li:nth-child(3){
+  padding: 0px .4rem 0px .4rem;
+}
 a{
-  color: grey;
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
 }
 a:hover{
-  color: lightgray;
+  color: #f3dc5c;
 }
 
 @media (max-width: 600px) {
   .content{
-    left: 12%;
+    left: 14%;
     top: 50%;
     position: absolute;
-    transform: translate(-12%, -50%);
+    transform: translate(-14%, -50%);
   }
 }
 df-messenger {
   --df-messenger-bot-message: white; /* Cor do balão para mensagens do agente */
-  --df-messenger-button-titlebar-color: cornflowerblue; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
-  --df-messenger-button-titlebar-font-color: white; /*Cor da fonte do título na barra de título.*/
+  --df-messenger-button-titlebar-color: #f3dc5c; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
+  --df-messenger-button-titlebar-font-color: black; /*Cor da fonte do título na barra de título.*/
   --df-messenger-chat-background-color: whiteSmoke; /*Cor do fundo.*/
   --df-messenger-font-color: black; /*Cor da fonte para mensagens.*/
   --df-messenger-input-box-color: white; /*Cor do segundo plano da caixa de entrada de texto.*/
   --df-messenger-input-font-color: black; /*Cor da fonte da caixa de entrada de texto.*/
   --df-messenger-input-placeholder-font-color: black; /*Cor da fonte do texto do marcador na caixa de entrada de texto.*/
   --df-messenger-minimized-chat-close-icon-color: white; /*Cor do ícone de fechamento na visualização de chat fechada.*/
-  --df-messenger-send-icon: cornflowerblue; /*Cor do ícone de envio na caixa de entrada de texto.*/
+  --df-messenger-send-icon: black; /*Cor do ícone de envio na caixa de entrada de texto.*/
   --df-messenger-user-message: lightgray; /*Cor do segundo plano do balão para mensagens do usuário.*/
 }  
