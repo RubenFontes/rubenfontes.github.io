@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
 
-@font-face {
+/*@font-face {
   font-family: "Futura";
   src: url(assets/fonts/Futura.otf);
-}
+}*/
 *{
   margin: 0;
   padding: 0;
+}
+html{
+  -webkit-tap-highlight-color: transparent;
 }
 body{
   background-color: black;
@@ -31,26 +34,31 @@ body{
   font-weight: 900;
   font-size: 30px;
   color: black;
-  background: #f3dc5c;
+  background: #f1f15c;
 }
 main p{
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 button{
-  background-color: black;
-  color: whitesmoke;
   font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: rgb(255, 255, 255);
   font-size: 16px;
-  padding: 0;
-  margin: 0;
-  text-align: left;
   cursor: pointer;
   border: none;
-  font-weight: 500;
 }
-span:hover{
-  color: #f3dc5c;
+img{
+  max-height: 12px;
+  max-width: 12px;
+  position:absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+}
+.accordion{
+  padding-left: 18px;
+  position: relative;
 }
 ul{
   float: left;
@@ -71,17 +79,11 @@ ul li:nth-child(3){
   padding: 0px .4rem 0px .4rem;
 }
 a{
-  color: inherit;
-  text-decoration: underline;
+  color: #f1f15c;
+  text-decoration: none;
 }
 a:hover{
-  color: #f3dc5c;
-}
-img{
-  width: 16px;
-}
-button:hover, img:hover{
-  transform: scale(1.1);
+  text-decoration: underline;
 }
 @media (max-width: 600px) {
   .content{
@@ -93,7 +95,7 @@ button:hover, img:hover{
 }
 df-messenger {
   --df-messenger-bot-message: white; /* Cor do balão para mensagens do agente */
-  --df-messenger-button-titlebar-color: #f3dc5c; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
+  --df-messenger-button-titlebar-color: #f1f15c; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
   --df-messenger-button-titlebar-font-color: black; /*Cor da fonte do título na barra de título.*/
   --df-messenger-chat-background-color: whiteSmoke; /*Cor do fundo.*/
   --df-messenger-font-color: black; /*Cor da fonte para mensagens.*/
