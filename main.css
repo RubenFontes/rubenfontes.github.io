@@ -34,7 +34,7 @@ body{
   font-weight: 900;
   font-size: 30px;
   color: black;
-  background: #f1f15c;
+  background: #f4d862;
 }
 main p{
   margin-top: 20px;
@@ -79,7 +79,7 @@ ul li:nth-child(3){
   padding: 0px .4rem 0px .4rem;
 }
 a{
-  color: #f1f15c;
+  color: #f4d862;
   text-decoration: none;
 }
 a:hover{
@@ -95,7 +95,7 @@ a:hover{
 }
 df-messenger {
   --df-messenger-bot-message: white; /* Cor do balão para mensagens do agente */
-  --df-messenger-button-titlebar-color: #f1f15c; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
+  --df-messenger-button-titlebar-color: #f4d862; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
   --df-messenger-button-titlebar-font-color: black; /*Cor da fonte do título na barra de título.*/
   --df-messenger-chat-background-color: whiteSmoke; /*Cor do fundo.*/
   --df-messenger-font-color: black; /*Cor da fonte para mensagens.*/
