@@ -26,7 +26,7 @@ body{
   left: 42%;
   top: 50%;
   position: absolute;
-  transform: translate(-42%, -50%);
+  transform: translate(-50%, -42%);
 }
 .title{
   display: inline;
@@ -39,6 +39,10 @@ body{
 main p{
   margin-top: 20px;
   margin-bottom: 8px;
+}
+p::selection {
+  background-color: #f4d862;
+  color: black;
 }
 button{
   font-family: 'Roboto', sans-serif;
