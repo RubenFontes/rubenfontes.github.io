@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ruben Fontes">
+    <meta name="description" content="Personal website of Ruben Fontes - desiner and front-end developer in Brazil.">
+    <meta http-equiv="cleartype" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="google-site-verification" content="m13HtJ6Ymr7ZQLtPa88yNLOOZrVcolYkbg8Y0FO8ihM" />
+    <title>Ruben Fontes | Front-end • chatbots.</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T94RD0XB0L"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T94RD0XB0L');
+    </script>
+    
+<body>
+    <div class="wrapper">
+        <main class="content">
+            <h1 class="title">Ruben Fontes</h1>
+            <p>Working with web development in Brazil.</p>
+            <button id="btn"><div class="accordion"><img id="img" src="assets/img/plus.png"> contact / portfolio</div></button>
+            <div id="container" style="display: none;">
+                <ul>
+                    <li><a href="https://github.com/RubenFontes" target="_blank">Github</a></li>
+                    |
+                    <li><a href="https://www.behance.net/rbenf" target="_blank">Behance</a></li>
+                    |
+                    <li><a href="https://br.linkedin.com/in/rubengfontes" target="_blank">Linkedin</a></li>
+                    |
+                    <li><a href="https://rubenfontes.github.io/portfolio/" target="_blank">Portfolio</a></li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Cloudflare Web Analytics -->
+    <!--<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "283dd35036954732873cddf5f5da5688"}'></script>--> <!-- End Cloudflare Web Analytics -->
+
+    <!-- Dialogflow web-messenger integration-->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        intent=""
+        chat-title="Talk to me"
+        agent-id="19a428a1-40f9-48bf-ab4e-812782e559cc"
+        chat-icon="assets/img/logobot.png"
+        language-code="en">
+    </df-messenger>
+    <script src="app.js"></script>
+</body>
+</html>
