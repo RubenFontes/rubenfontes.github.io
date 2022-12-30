@@ -4,11 +4,13 @@
   font-family: "Futura";
   src: url(assets/fonts/Futura.otf);
 }*/
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html{
   -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
@@ -119,6 +121,12 @@ a:hover{
     position: absolute;
     transform: translate(-15%, -50%);
   }
+  .title{
+    font-size: 2em;
+}
+main p{
+    font-size: 1em;
+}
 }
 df-messenger {
   --df-messenger-bot-message: #FAFAFA; /* Cor do balão para mensagens do agente */
