@@ -123,10 +123,13 @@ a:hover{
   }
   .title{
     font-size: 2em;
-}
-main p{
-    font-size: 1em;
-}
+  }
+  main p{
+    font-size: 1.05em;
+  }
+  button{
+    font-size: 1.05em;
+  }
 }
 df-messenger {
   --df-messenger-bot-message: #FAFAFA; /* Cor do balão para mensagens do agente */
