@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 /*@font-face {
   font-family: "Futura";
@@ -21,7 +21,7 @@ html{
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #131418;
+  background-color: #141519;
 }
  
 ::-webkit-scrollbar-thumb {
@@ -29,19 +29,14 @@ html{
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #FFE082; 
+  background: #FDE68A; 
 }
 
 body{
   background-color: #131418;
-  color: whitesmoke;
+  color: #F4F4F5;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
-}
-.wrapper{
-  width: 100vw;
-  height: 100vh;
-  position: relative;
 }
 .content{
   left: 42%;
@@ -51,26 +46,27 @@ body{
 }
 .title{
   display: inline;
-  padding: 8px;
+  padding: 12px;
   font-weight: 900;
   font-size: 2.2em;
-  color: #121212;
-  background: #FFE082;
+  color: #141519;
+  background: #FDE68A;
 }
 main p{
-  margin-top: 20px;
-  margin-bottom: 8px;
-  font-size: 1.1em;
+  margin-top: 1.6rem;
+  margin-bottom: 4px;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 p::selection {
-  background-color: #FFE082;
+  background-color: #FDE68A;
   color: #121212;
 }
 button{
   font-family: 'Roboto', sans-serif;
   background-color: #131418;
-  color: rgb(255, 255, 255);
-  font-size: 1.1em;
+  color: #F4F4F5;
+  font-size: 1.1rem;
   cursor: pointer;
   border: none;
 }
@@ -108,7 +104,7 @@ ul li:nth-child(4){
   padding: 0px .4rem 0px .4rem;
 }
 a{
-  color: #FFE082;
+  color: #FDE68A;
   text-decoration: none;
 }
 a:hover{
@@ -122,18 +118,20 @@ a:hover{
     transform: translate(-15%, -50%);
   }
   .title{
-    font-size: 2em;
+    font-size: 2rem;
   }
   main p{
-    font-size: 1.05em;
+    font-size: 1.05rem;
+    margin-top: 1.4rem;
+    margin-bottom: 4px;
   }
   button{
-    font-size: 1.05em;
+    font-size: 1.05rem;
   }
 }
 df-messenger {
   --df-messenger-bot-message: #FAFAFA; /* Cor do balão para mensagens do agente */
-  --df-messenger-button-titlebar-color: #FFE082; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
+  --df-messenger-button-titlebar-color: #FDE68A; /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
   --df-messenger-button-titlebar-font-color: #131418; /*Cor da fonte do título na barra de título.*/
   --df-messenger-chat-background-color: #F4F4F5; /*Cor do fundo.*/
   --df-messenger-font-color: #131418; /*Cor da fonte para mensagens.*/
