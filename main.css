@@ -41,7 +41,7 @@ html{
 body{
   background-color: var(--light-color);
   color: var(--dark-color);
-  font-weight: 400;
+  font-weight: 500;
   font-family: 'roboto', sans-serif;
 }
 .content{
@@ -61,9 +61,9 @@ body{
 main h1{
   /*margin-top: 1.6rem;*/
   margin-bottom: 4px;
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 700;
-  line-height: 100%;
+  line-height: 105%;
 }
 h1::selection {
   background-color: var(--dark-color);
@@ -76,6 +76,7 @@ button{
   font-size: 1vw;
   cursor: pointer;
   border: none;
+  font-weight: 500;
 }
 img{
   max-height: 13px;
@@ -122,7 +123,7 @@ a:hover{
     font-size: 2rem;
   }
   main h1{
-    font-size: 2.8rem;
+    font-size: 2rem;
     /*margin-top: 1.4rem;*/
     margin-bottom: 6px;
   }
