@@ -1,5 +1,5 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');*/
 
 /*@font-face {
   font-family: "Futura";
@@ -42,7 +42,7 @@ body{
   background-color: var(--light-color);
   color: var(--dark-color);
   font-weight: 400;
-  font-family: 'Playfair Display', serif;
+  font-family: 'roboto', sans-serif;
 }
 .content{
   left: 42%;
@@ -63,6 +63,7 @@ main h1{
   margin-bottom: 4px;
   font-size: 4vw;
   font-weight: 700;
+  line-height: 100%;
 }
 h1::selection {
   background-color: var(--dark-color);
