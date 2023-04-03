@@ -64,8 +64,8 @@ main p{
   font-weight: 400;
 }
 p::selection {
-  background-color: #FDE68A;
-  color: #121212;
+  background-color: var(--dark-color);
+  color: var(--light-color);
 }
 button{
   font-family: 'Roboto', sans-serif;
@@ -103,7 +103,7 @@ ul li:nth-child(n+1){
   padding: 0px .4rem 0px .4rem;
 }
 a{
-  color: #FDE68A;
+  color: var(--dark-color);
   text-decoration: none;
 }
 a:hover{
