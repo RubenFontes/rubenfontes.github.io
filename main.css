@@ -1,6 +1,4 @@
-.section{
-    margin-top: 60px;
-}
+
 .card{
     padding: 10px;
     margin-top: 10px;
@@ -36,8 +34,7 @@ a:hover {
     font-size: xx-large;
     padding: 0;
     display: flex;
-    justify-content: space-between;
-    width: 80%;
+    justify-content: space-evenly;
     max-width: 320px;
     margin: 1em auto;
 }
