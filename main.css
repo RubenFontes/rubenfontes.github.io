@@ -22,19 +22,18 @@ html{
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #141519;
-}
- 
-::-webkit-scrollbar-thumb {
-  background: #F4F4F5; 
+  background-color: var(--light-color);
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #0560ff; 
+::-webkit-scrollbar-thumb {
+  background: var(--seccundary-color);
+  border-radius: 5px;
+
 }
 
 body{
@@ -43,12 +42,14 @@ body{
   font-weight: 400;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
 }
+
 .content{
   left: 42%;
   top: 50%;
   position: absolute;
   transform: translate(-50%, -42%);
 }
+
 .title{
   display: inline;
   padding: 10px;
@@ -57,6 +58,7 @@ body{
   color: var(--light-color);
   background: var(--main-color);
 }
+
 main p{
   margin-top: 1.6rem;
   margin-bottom: 4px;
@@ -64,10 +66,12 @@ main p{
   font-weight: 400;
   color: black;
 }
+
 p::selection {
   background-color: var(--main-color);
-  color: #121212;
+  color: var(--light-color);
 }
+
 button{
   background-color: var(--light-color);
   color: black;
@@ -78,6 +82,7 @@ button{
   text-decoration: underline;
   border: none;
 }
+
 img{
   max-height: 13px;
   max-width: 13px;
@@ -87,16 +92,19 @@ img{
   transform: translateY(-50%);
   filter: brightness(0);
 }
+
 .accordion{
   padding-left: 18px;
   position: relative;
 }
+
 ul{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   margin-top: 12px;
 }
+
 ul li{
   list-style-type: none;
 
@@ -106,9 +114,11 @@ a{
   color: var(--main-color);
   text-decoration: none;
 }
+
 a:hover{
   text-decoration: underline;
 }
+
 @media (max-width: 600px) {
   .content{
     left: 15%;
@@ -128,6 +138,7 @@ a:hover{
     font-size: 1.05rem;
   }
 }
+
 df-messenger {
   --df-messenger-bot-message: white; /* Cor do balão para mensagens do agente */
   --df-messenger-button-titlebar-color: var(--main-color); /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
