@@ -1,0 +1,198 @@
+/* Portfolio Styles - Forçando aplicação */
+.portfolio-page {
+  background-color: #F8FAFC;
+  color: black;
+  min-height: 100vh;
+}
+
+.portfolio-page svg {
+  margin: calc(20vh - 50px) 0 0 5vw;
+  cursor: pointer;
+  color: #0560ff;
+  border-radius: 50%;
+  transition: .4s;
+}
+
+.portfolio-page svg:hover {
+  color: black;
+  transform: rotate(180deg);
+}
+
+.portfolio-page header {
+  margin: 5vh 0 7vh 5vw;
+}
+
+.portfolio-page header h1 {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.portfolio-page header p {
+  font-size: 1.3em;
+  margin-top: 3.5vh;
+  line-height: 1.7em;
+  font-weight: 300;
+}
+
+.portfolio-page header p a {
+  color: black;
+  text-decoration: underline;
+}
+
+.portfolio-page header p a:hover {
+  color: #0560ff;
+  text-decoration: none;
+}
+
+.portfolio-page .gallery {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 50px !important;
+  justify-content: start !important;
+  margin-left: 5vw !important;
+  margin-bottom: calc(10vh + 50px) !important;
+  max-width: 75vw !important;
+}
+
+.portfolio-page .gallery img,
+.portfolio-page .gallery .image-container {
+  width: auto !important;
+  height: 18vw !important;
+  background-repeat: repeat !important;
+  transition: .6s !important;
+  cursor: pointer !important;
+  display: block !important;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.portfolio-page .gallery .image-container .main-image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.portfolio-page .gallery .image-container .placeholder-image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.portfolio-page .gallery img:hover,
+.portfolio-page .gallery .image-container:hover .main-image {
+  filter: brightness(0.80) !important;
+}
+
+.portfolio-page .gallery figure {
+  display: inline-block !important;
+  position: relative !important;
+  height: 18vw !important;
+  box-shadow: rgba(17, 12, 46, 0.10) 0px 48px 100px 0px !important;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.portfolio-page .gallery figure figcaption {
+  display: block !important;
+  position: absolute !important;
+  max-height: 75% !important;
+  min-height: 15% !important;
+  width: 100% !important;
+  bottom: 0vh !important;
+  left: 0vw !important;
+  font-size: 15px !important;
+  padding: 20px !important;
+  color: black !important;
+  font-weight: 300 !important;
+  background-color: white !important;
+  opacity: 0.95 !important;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+.portfolio-page .gallery figure figcaption p:nth-child(2) {
+  padding-top: 10px !important;
+}
+
+.portfolio-page .gallery figure figcaption strong {
+  font-weight: 500 !important;
+}
+
+.portfolio-page .gallery figure:hover {
+  transform: scale(1.03) !important;
+  transition: .6s !important;
+}
+
+.portfolio-page .gallery .animated {
+  transform: translateY(50px) !important;
+  transition: .6s ease !important;
+}
+
+/* Responsividade */
+@media (max-width: 920px) {
+  .portfolio-page svg {
+    margin: calc(10vh - 50px) 0 0vh 5vw;
+    width: 44px;
+  }
+
+  .portfolio-page header {
+    margin: 2vh 5vw 5vh 5vw;
+  }
+
+  .portfolio-page header h1 {
+    font-size: 3em;
+  }
+
+  .portfolio-page header p {
+    font-size: 1em;
+    margin-top: 2vh;
+  }
+
+  .portfolio-page .gallery img,
+  .portfolio-page .gallery .image-container {
+    width: 90vw !important;
+    height: auto !important;
+  }
+  
+  .portfolio-page .gallery .image-container .main-image,
+  .portfolio-page .gallery .image-container .placeholder-image {
+    height: auto !important;
+  }
+
+  .portfolio-page .gallery figure {
+    height: auto !important;
+  }
+
+  .portfolio-page .gallery figure figcaption p:nth-child(2) {
+    display: none !important;
+  }
+
+  .portfolio-page .gallery {
+    gap: 15px !important;
+  }
+
+  .portfolio-page .gallery figure figcaption {
+    font-size: .8em !important;
+    padding: 20px !important;
+  }
+}
+
+df-messenger {
+    --df-messenger-bot-message: white; /* Cor do balão para mensagens do agente */
+    --df-messenger-button-titlebar-color: var(--main-color); /*Cor do botão flutuante e da barra de título da caixa de diálogo do chat.*/
+    --df-messenger-button-titlebar-font-color: var(--light-color); /*Cor da fonte do título na barra de título.*/
+    --df-messenger-chat-background-color: var(--light-color); /*Cor do fundo.*/
+    --df-messenger-font-color: black; /*Cor da fonte para mensagens.*/
+    --df-messenger-input-box-color: var(--light-color); /*Cor do segundo plano da caixa de entrada de texto.*/
+    --df-messenger-input-font-color: #131418; /*Cor da fonte da caixa de entrada de texto.*/
+    --df-messenger-input-placeholder-font-color: #131418; /*Cor da fonte do texto do marcador na caixa de entrada de texto.*/
+    --df-messenger-minimized-chat-close-icon-color: var(--light-color); /*Cor do ícone de fechamento na visualização de chat fechada.*/
+    --df-messenger-send-icon: var(--main-color); /*Cor do ícone de envio na caixa de entrada de texto.*/
+    --df-messenger-user-message: #E4E4E7; /*Cor do segundo plano do balão para mensagens do usuário.*/
+  }
