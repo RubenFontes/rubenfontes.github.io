@@ -18,6 +18,7 @@ import plusIcon from '../assets/img/plus2.png'
 import minusIcon from '../assets/img/minus2.png'
 import chatIcon from '../assets/img/chat-blue.png'
 import curriculum from '../assets/img/curriculum.pdf'
+import favicon from '../assets/img/favicon.ico'
 
 export const portfolioImages = {
   mockupMinerva,
@@ -39,5 +40,6 @@ export const homeImages = {
   plusIcon,
   minusIcon,
   chatIcon,
-  curriculum
+  curriculum,
+  favicon
 }
